@@ -1,0 +1,4 @@
+xtrap
+=====
+
+C++ exceptions framework

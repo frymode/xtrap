@@ -15,6 +15,9 @@
     <ClInclude Include="backtrace.h" />
     <ClInclude Include="backtrace_stack.h" />
     <ClInclude Include="breakpoint.h" />
+    <ClInclude Include="common\async_result.h" />
+    <ClInclude Include="common\async_result_base.h" />
+    <ClInclude Include="common\generic_exceptions.h" />
     <ClInclude Include="config.h" />
     <ClInclude Include="exception.h" />
     <ClInclude Include="exception_formatter.h" />
@@ -28,6 +31,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="breakpoint.cpp" />
+    <ClCompile Include="common\generic_exceptions.cpp" />
     <ClCompile Include="exception.cpp" />
     <ClCompile Include="exception_formatter.cpp" />
     <ClCompile Include="exception_info.cpp" />

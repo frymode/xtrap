@@ -25,6 +25,15 @@
     <ClInclude Include="win32\exception_trap.h">
       <Filter>win32</Filter>
     </ClInclude>
+    <ClInclude Include="common\async_result_base.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\generic_exceptions.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\async_result.h">
+      <Filter>common</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="exception.cpp" />
@@ -43,10 +52,16 @@
     <ClCompile Include="win32\exception_trap.cpp">
       <Filter>win32</Filter>
     </ClCompile>
+    <ClCompile Include="common\generic_exceptions.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="win32">
       <UniqueIdentifier>{0dcaf707-c3d3-4e24-bf23-5be5176e95f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{5c602605-70e2-4fe1-be6e-238896ab3fe6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -5,3 +5,6 @@
 #include "exception_info.h"
 
 #include "win32/exception_trap.h"
+
+#include "common/generic_exceptions.h"
+#include "common/async_result.h"

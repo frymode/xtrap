@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="exception.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="exception_info.h" />
+    <ClInclude Include="backtrace_stack.h" />
+    <ClInclude Include="backtrace.h" />
+    <ClInclude Include="exception_formatter.h" />
+    <ClInclude Include="exception_traps.h" />
+    <ClInclude Include="breakpoint.h" />
+    <ClInclude Include="win32\symbol_server.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\untyped_exception.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\windows.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\backtrace.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="all.h" />
+    <ClInclude Include="win32\exception_trap.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="exception.cpp" />
+    <ClCompile Include="exception_info.cpp" />
+    <ClCompile Include="breakpoint.cpp" />
+    <ClCompile Include="exception_formatter.cpp" />
+    <ClCompile Include="win32\symbol_server.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\untyped_exception.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\backtrace.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\exception_trap.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{0dcaf707-c3d3-4e24-bf23-5be5176e95f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

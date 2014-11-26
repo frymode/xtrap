@@ -2,11 +2,11 @@
 
 #include "../exception.h"
 
-#define XTRAP_THROW_NOT_IMPLEMENTED() THROW(xutil::NotImplementedException())
-#define XTRAP_THROW_NOT_SUPPORTED(msg) THROW(xutil::NotSupportedException(msg))
-#define XTRAP_THROW_INVALID_STATE(msg) THROW(xutil::InvalidStateException(msg))
-#define XTRAP_THROW_ARGUMENT_ERROR(arg, details) THROW(xutil::ArgumentException(arg, details))
-#define XTRAP_THROW_ARGUMENT_NULL(arg) THROW(xutil::ArgumentNullException(arg))
+#define XTRAP_THROW_NOT_IMPLEMENTED() THROW(xtrap::NotImplementedException())
+#define XTRAP_THROW_NOT_SUPPORTED(msg) THROW(xtrap::NotSupportedException(msg))
+#define XTRAP_THROW_INVALID_STATE(msg) THROW(xtrap::InvalidStateException(msg))
+#define XTRAP_THROW_ARGUMENT_ERROR(arg, details) THROW(xtrap::ArgumentException(arg, details))
+#define XTRAP_THROW_ARGUMENT_NULL(arg) THROW(xtrap::ArgumentNullException(arg))
 
 namespace xtrap
 {

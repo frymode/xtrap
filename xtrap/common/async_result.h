@@ -26,7 +26,7 @@ namespace xtrap
         }
 
         AsyncResult(ExceptionInfo&& error)
-            : AsyncResultBase(move(error))
+            : AsyncResultBase(std::move(error))
         {
         }
 

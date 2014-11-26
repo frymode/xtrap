@@ -8,3 +8,5 @@
 
 #include "common/generic_exceptions.h"
 #include "common/async_result.h"
+
+#pragma comment(lib, "dbghelp.lib")
